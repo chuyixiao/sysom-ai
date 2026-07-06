@@ -126,13 +126,13 @@ Agent Skills 是为 AI 编码助手（Qoder、Claude 等）提供的技能包，
 
 ```bash
 # 安装诊断技能
-npx skills add chuyixiao/sysom-ai --skill alibabacloud-sysom-diagnosis --a qoder -g
+npx skills add chuyixiao/sysom-ai --skill alibabacloud-sysom-diagnosis -a qoder -g
 
 # 安装巡检技能
-npx skills add chuyixiao/sysom-ai --skill alibabacloud-sysom-inspection --a qoder -g
+npx skills add chuyixiao/sysom-ai --skill alibabacloud-sysom-inspection -a qoder -g
 
 # 一键全部安装
-npx skills add chuyixiao/sysom-ia --skill '*' --a qoder -g
+npx skills add chuyixiao/sysom-ia --skill '*' -a qoder -g
 ```
 
 ### alibabacloud-sysom-diagnosis
